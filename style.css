@@ -7,7 +7,7 @@ img {
 	max-width: 100%;
 }
 #cover{
-	background: url('img/bg.jpg') bottom center no-repeat;
+	background: url('img/img3.jpg') bottom center no-repeat;
 	background-size: cover;
 	color: black;
 	height: 100%;
@@ -25,10 +25,20 @@ img {
 #about {
 	background: url(img/abt.jpg) center center no-repeat;
 	background-size: cover;
-	box-shadow: 0px 8px 30px black;
+	
 }
 .about-text{
 	background: rgba(0,0,0,0.8);
 	color: white;
 	padding: 1.875rem;
+}
+.twitter::hover{
+	background-color: #3B5998;
+}
+ul.unstyled{
+	list-style-type: none;
+	display: inline;
+}
+.unstyled>li{
+	display: inline;
 }
